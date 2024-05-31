@@ -1,0 +1,46 @@
+.parant {
+    margin-top: 10px;
+    height: 77px;
+}
+.items {
+    margin: 1;
+    display: inline-block;
+    
+    width: 25px;
+    height: 30px;
+    background-color: #CFE2F3;
+    border: 1px solid black;
+}
+
+/* select all but the first five*/
+/* .items:nth-child(n+6){
+    background-color: #FF9900;
+} */
+
+
+
+/* select olny the first five*/
+/* .items:nth-child(-n+5){
+    background-color: #FF9900;
+} */
+
+
+/*SELECT EVERY FOURTH, STARTING AT THE FIRST*/
+/* .items:nth-child(4n){
+    background-color: #FF9900;
+} */
+
+
+
+/* SELECT THE LAST 5 ELEMENTS */
+/* .items:nth-last-child(-n+5){
+    background-color: #FF9900;
+} */
+
+
+
+/* SELECT THE SECOUND TO LAST ELEMENT*/
+/* .items:nth-child(n+2){
+    background-color: #FF9900;
+} */
+

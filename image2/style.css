@@ -1,0 +1,18 @@
+.parant {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.items {
+    margin: 1;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 60px;
+    height: 27px;
+    background-color: red ;
+    border: 1px solid black;
+}
+.items:nth-child(even) {
+    display: none;
+}
